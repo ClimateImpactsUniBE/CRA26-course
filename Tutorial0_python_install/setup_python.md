@@ -134,6 +134,11 @@ And then the mouthful:
 ```shell
 uv run ipython kernel install --user --env VIRTUAL_ENV $(pwd)/.venv --name=project
 ```
+
+For windows:
+```shell
+uv run ipython kernel install --user --env VIRTUAL_ENV "$(PWD)\.venv" --name=project
+```
 You don't really need to understand this one, it just makes you *python environment* visible as a *IPython kernel*, a similar but different thing that jupyter needs to work. 
 ## Step 4: Decide on an IDE
 
