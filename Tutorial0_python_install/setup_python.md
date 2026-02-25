@@ -161,7 +161,9 @@ You should then "open file or folder" using the key combination vscode tells you
 
 Once you are there, with a python file or jupyter notebook open, you should be asked to "choose a python environment". You can choose the one uv created, it should be called `.venv` or something similar.
 
-You can then start editing and running code from there. On the left column you have a nice file explorer, and at the bottom you have terminal where you can run the `uv` command for example.
+You can then start editing and running code from there. On the left column you have a nice file explorer, and at the bottom you have terminal where you can run the `uv` command for example. If you cannot see the terminal either try to drag the bottom boundary or use the command prompt to "focus view on the terminal" (see next paragraph).
+
+A lot of things can be done in vscode by pressing `ctrl/cmd + shift + P`. This opens the command prompt, from which you can type and execute vscode commands like to open the terminal or open configuration files.
 
 VScode integrate LLM tools seamlessly, but as we wrote elsewhere we strongly recommend disabling these tools completely to help you actually learn. 
 
