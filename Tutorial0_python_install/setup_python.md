@@ -123,6 +123,13 @@ uv add numpy
 ```
 We will be using a few different packages throughout this course, they can all be added this way.
 
+If you want all the packages we will use for the course, you can run the following command:
+
+```shell
+uv pip sync requirements.txt
+```
+from your terminal located in a folder where the `requirements.txt` is.
+
 ## Step 3 Working with notebooks
 
 Jupyter notebooks are an alternative to python scripts that are extremely popular and convenient to use. This course is provided in the form of jupyter notebooks for this reason. To work with notebooks and not just scripts, one extra step is needed, and again it's just a few commands to run. First, the package `ipykernel` needs to be installed:
